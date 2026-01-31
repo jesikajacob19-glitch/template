@@ -1,0 +1,176 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Playwrite NZ Basic", cursive;
+}
+
+.header {
+    font-family: "Lora", serif;
+    background-color: darkolivegreen;
+    padding: 30px;
+}
+
+.section1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar {
+    display: flex;
+    gap: 16px;
+
+}
+
+.navlink {
+    color: white;
+}
+
+.image {
+    border: 4px solid whitesmoke;
+}
+
+.tittle {
+    font-size: 26px;
+    font-weight: bold;
+    color: #dfd9d9;
+}
+
+.tagline {
+    font-size: 20px;
+    color: #dfd9d9;
+    padding-left: 45px;
+}
+
+.section2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    background-color: antiquewhite;
+    margin: 4px;
+    padding: 40px 30px 80px 30px;
+}
+
+.maintext {
+    font-size: 26px;
+    font-weight: bold;
+    color: olive;
+    padding-top: 26px;
+    padding-left: 20px;
+}
+
+.subtext {
+    font-size: 16px;
+    color: olivedrab;
+    padding-top: 6px;
+    padding-left: 40px;
+}
+
+.section3 {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: whitesmoke;
+    margin: 4px;
+    padding: 40px 30px 60px 30px;
+}
+
+.college {
+    color: olive;
+    font-size: 26px;
+    font-weight: bold;
+    padding-top: 16px;
+    padding-left: 20px;
+}
+
+.colpara {
+    color: olivedrab;
+    padding: 12px 60px 16px 26px;
+    font-size: 16px;
+}
+
+.testimonials {
+    color: olive;
+    font-size: 26px;
+    font-weight: bold;
+    padding-top: 16px;
+    padding-left: 20px;
+}
+
+.content {
+    color: olivedrab;
+    padding: 12px 60px 16px 26px;
+    font-size: 16px;
+}
+
+.section4 {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: antiquewhite;
+    margin: 4px;
+    padding: 40px 30px 60px 30px;
+}
+
+h3 {
+    color: olive;
+    font-weight: bolder;
+}
+
+.para {
+    flex-direction: row;
+    font-size: 10px;
+}
+
+.section4 img {
+    border-radius: 14px;
+    border: 10px solid black;
+}
+
+.cardbutton button {
+    margin: 20px;
+    height: 36px;
+    background-color: skyblue;
+    color: rgb(25, 0, 255);
+    border-radius: 12px;
+}
+
+.section5 {
+    display: flex;
+    justify-content: space-between;
+    background-color: gray;
+    text-align: center;
+    margin: 4px;
+    padding: 16px 16px 16px 16px;
+}
+
+.top {
+    font-size: 26px;
+    font-weight: bold;
+    flex: 1;
+}
+
+.top p {
+    font-weight: lighter;
+    font-size: small;
+    flex: 1;
+}
+
+.top button {
+    background-color: skyblue;
+    color: blue;
+    margin: 20px;
+    border-radius: 12px;
+    height: 28px;
+}
+
+.footer {
+    margin-top: 4px;
+    background-color: darkolivegreen;
+    padding: 40px 40px 40px 40px;
+    text-align: center;
+}
